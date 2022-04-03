@@ -5,5 +5,6 @@ This Project is designed to learn the concepts of JavaCollection by implementing
 
 So each concept will have a separate branch created with the entire source code and readme.txt file in it
 
-S.No  Topics          BranchName
-1     ArrayList       ArrayList
+S.No         Topics          BranchName
+--------------------------------------
+1           ArrayList       ArrayList
