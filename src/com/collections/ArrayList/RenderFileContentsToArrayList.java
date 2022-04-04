@@ -9,8 +9,9 @@ public class RenderFileContentsToArrayList {
 		
 		RenderFileContentsToArrayList content = new RenderFileContentsToArrayList();
 		content.getSongs();
-		System.out.println(songsList);
-		
+		System.out.println("Before sorting :"+songsList);
+		Collections.sort(songsList); // sort() in-built method provided by collections class
+		System.out.println("After sorting :"+ songsList);	
 	}
 	void getSongs() {
 		//read the contents of the file
@@ -33,3 +34,12 @@ public class RenderFileContentsToArrayList {
 	}
 
 }
+
+
+/*
+ * Output of the program :
+ * 
+ * Before sorting :[Shake it off, The Heart Wants What it Wants, 7 rings, Perfect]
+ * After sorting :[7 rings, Perfect, Shake it off, The Heart Wants What it Wants]
+ * 
+ */
